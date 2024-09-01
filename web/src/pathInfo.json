@@ -6,6 +6,8 @@
   "/src/view/example/customer/customer.vue": "Customer",
   "/src/view/example/index.vue": "Example",
   "/src/view/example/upload/upload.vue": "Upload",
+  "/src/view/first/khinfo/khinfo.vue": "Khinfo",
+  "/src/view/first/khinfo/khinfoForm.vue": "KhinfoForm",
   "/src/view/init/index.vue": "Init",
   "/src/view/layout/aside/asideComponent/asyncSubmenu.vue": "AsyncSubmenu",
   "/src/view/layout/aside/asideComponent/index.vue": "AsideComponent",
