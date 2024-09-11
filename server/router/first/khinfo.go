@@ -24,5 +24,6 @@ func (s *KhinfoRouter) InitKhinfoRouter(Router *gin.RouterGroup, PublicRouter *g
 	}
 	{
 		khinfoRouterWithoutAuth.POST("createKhinfoPublic", khinfoApi.CreateKhinfo) // 获取客户信息列表
+		khinfoRouterWithoutAuth.GET("findKhinfoPublic", khinfoApi.FindKhinfo)
 	}
 }

@@ -643,7 +643,7 @@ const onPrint = () => {
     });
     return;
   }
-  dialogVisible.value = true;
+  window.open('http://124.221.34.24:9998?ids='+ multipleSelection.value.map(item=>item.ID).join(','))
 };
 
 const innerHtmlPrint = () => {
