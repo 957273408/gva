@@ -109,7 +109,7 @@
           >删除</el-button
         >
         <el-button
-          icon="delete"
+          icon="printer"
           style="margin-left: 10px"
           :disabled="!multipleSelection.length"
           @click="onPrint"
@@ -636,7 +636,7 @@ const onDelete = async () => {
 };
 
 const onPrint = () => {
-  if (multipleSelection.value.length !== 3) {
+  if (multipleSelection.value.length !== 4) {
     ElMessage({
       type: "info",
       message: "请勾选3项进行打印",
