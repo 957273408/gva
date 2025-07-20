@@ -12,4 +12,8 @@ func Router(engine *gin.Engine) {
 	private := engine.Group(global.GVA_CONFIG.System.RouterPrefix).Group("")
 	private.Use(middleware.JWTAuth()).Use(middleware.CasbinHandler())
 	router.Router.Info.Init(public, private)
+	router.Router.Hero.Init(public, private)
+	router.Router.Team.Init(public, private)
+	router.Router.Player.Init(public, private)
+	router.Router.Bplist.Init(public, private)
 }
