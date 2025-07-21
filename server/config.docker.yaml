@@ -141,7 +141,7 @@ mysql:
   db-name: gva
   username: gva
   password: Sun123456
-  path: 117.72.178.73
+  path: 101.126.139.30
   engine: ""
   log-mode: error
   max-idle-conns: 10
